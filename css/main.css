@@ -1112,7 +1112,7 @@ pre .javascript .function {
   position: relative;
   display: inline-block;
   padding: 0 40px;
-  color: #fff;
+  color: #000 !important;
   background: #222;
   border-bottom: none;
 }
@@ -1208,6 +1208,7 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  color: #000 !important;
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
@@ -1823,7 +1824,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4d581c;
+  background: #3c2d45;
 }
 .links-of-blogroll {
   font-size: 13px;

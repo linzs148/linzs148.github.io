@@ -229,7 +229,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://linzs148.github.io/2020/07/09/Google%20Colab%20GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
+    <link itemprop="mainEntityOfPage" href="https://linzs148.github.io/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -248,7 +248,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/07/09/Google%20Colab%20GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" itemprop="url">Google Colab GPU使用教程</a></h1>
+                <a class="post-title-link" href="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" itemprop="url">Google Colab GPU使用教程</a></h1>
         
 
         <div class="post-meta">
@@ -260,7 +260,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-07-09T15:13:23+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-07-09T16:26:03+08:00">
                 2020-07-09
               </time>
             
@@ -304,24 +304,24 @@
 <p><strong>前期准备：<font color="red">Google账号、科学上网工具</font></strong></p>
 <h1 id="登录Gmail账号"><a href="#登录Gmail账号" class="headerlink" title="登录Gmail账号"></a><strong>登录Gmail账号</strong></h1><p><strong><a href="mail.google.com">Gmail地址点这里</a>，需要挂梯子，第一次登录需要创建账号（事实上只要取一个用户名绑定到Google账号上即可）</strong></p>
 <h1 id="进入云端硬盘"><a href="#进入云端硬盘" class="headerlink" title="进入云端硬盘"></a><strong>进入云端硬盘</strong></h1><p><strong>在Gmail界面点击右上角的九宫格选择云端网盘</strong></p>
-<p><strong>![](Google Colab GPU使用教程/云端网盘.png)</strong></p>
+<p><strong><img src="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E4%BA%91%E7%AB%AF%E7%BD%91%E7%9B%98.png" alt></strong></p>
 <h1 id="关联Colaboratory"><a href="#关联Colaboratory" class="headerlink" title="关联Colaboratory"></a><strong>关联Colaboratory</strong></h1><p><strong>由于云端硬盘中没有默认的Colaboratory，需要先下载，点击左上角的新建，如图所示选择关联更多应用</strong></p>
-<p><strong>![](Google Colab GPU使用教程/新建更多.png)</strong></p>
+<p><strong><img src="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E6%96%B0%E5%BB%BA%E6%9B%B4%E5%A4%9A.png" alt></strong></p>
 <p><strong>在弹出的搜索框中输入Colaboratory，并点击进去安装</strong></p>
-<p><strong>![](Google Colab GPU使用教程/Colaboratory.png)</strong></p>
+<p><strong><img src="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Colaboratory.png" alt></strong></p>
 <h1 id="新建Colaboratory文件"><a href="#新建Colaboratory文件" class="headerlink" title="新建Colaboratory文件"></a><strong>新建Colaboratory文件</strong></h1><p><strong>安装完成之后啥心一下云端硬盘的页面，再次点击左上角的新建按钮就会出现Google Colaboratory选项，点击即可新建Colaboratory文件</strong></p>
-<p><strong>![](Google Colab GPU使用教程/new.png)</strong></p>
+<p><strong><img src="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/new.png" alt></strong></p>
 <h1 id="配置GPU"><a href="#配置GPU" class="headerlink" title="配置GPU"></a><strong>配置GPU</strong></h1><p><strong>Colaboratory是类似于Jupyter lab的云端环境，打开之后界面如下</strong></p>
 <p><strong>点击修改→笔记本设置</strong></p>
-<p><strong>![](Google Colab GPU使用教程/设置.png)</strong></p>
+<p><strong><img src="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E8%AE%BE%E7%BD%AE.png" alt></strong></p>
 <p><strong>选择硬件加速器为GPU并勾选下方的选项</strong></p>
-<p><strong>![](Google Colab GPU使用教程/设置1.png)</strong></p>
+<p><strong><img src="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E8%AE%BE%E7%BD%AE1.png" alt></strong></p>
 <h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a><strong>测试</strong></h1><p><strong>至此Colaboratory的GPU就白嫖成功啦~，</strong></p>
 <p><strong>可以在代码框中输入</strong></p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">!nvidia-smi</span><br></pre></td></tr></table></figure>
 
 <p><strong>查看GPU使用情况，如图所示</strong></p>
-<p><strong>![](Google Colab GPU使用教程/GPU使用情况.png)</strong></p>
+<p><strong><img src="/2020/07/09/Google-Colab-GPU%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/GPU%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5.png" alt></strong></p>
 <p><strong>好啦，接下来就开始愉快地写代码吧~</strong></p>
 
           
